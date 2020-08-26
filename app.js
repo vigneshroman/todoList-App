@@ -7,6 +7,7 @@ const app = express()
 const items = ['buy food', 'cook food', 'eat food']
 const workItems = []
 
+//setting the view engine to ejs...
 app.set('view engine', 'ejs')
 
 app.use(bodyParser.urlencoded({
